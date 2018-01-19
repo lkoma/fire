@@ -1,0 +1,22 @@
+{
+	"name": "fire",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "git@github.com:lkoma/fire.git",
+	"author": "lkoma <oceanaly@163.com>",
+	"license": "MIT",
+	"scripts": {
+		"dev": "parcel -p 8080 index.html",
+		"develop": "parcel -p 8080 index.html",
+		"start": "parcel -p 8080 index.html",
+		"build": "parcel build index.html --public-url /"
+	},
+	"dependencies": {
+		"react": "^16.2.0",
+		"react-dom": "^16.2.0"
+	},
+	"devDependencies": {
+		"babel-preset-react": "^6.24.1",
+		"parcel-bundler": "^1.4.1"
+	}
+}

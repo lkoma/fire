@@ -1,0 +1,12 @@
+.DS_Store
+node_modules/
+dist/
+npm-debug*
+mockup
+
+.idea
+.vscode
+.sonar
+sonar_test
+yarn-error.log
+.cache
